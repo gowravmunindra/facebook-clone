@@ -15,10 +15,10 @@
         $sql = "INSERT INTO `students_info` (`FirstName`, `LastName`, `Age`, `Emai`, `Phone`, `Username`, `Password`) VALUES ('$firstname', '$lastname', '$age', '$email', '$phone', '$username', '$pwd');";
 
         if($conn->query($sql) == true){
-            echo "Sign-Up Details Successfully Inserted";
+            // echo "Sign-Up Details Successfully Inserted";
         }
         else{
-                echo "Error: $sql <br> $connect->error";
+                // echo "Error: $sql <br> $connect->error";
         }
         
         $conn->close();
