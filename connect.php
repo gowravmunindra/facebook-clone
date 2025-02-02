@@ -11,10 +11,10 @@
 
         $sql = "INSERT INTO `details` (`Username`, `Password`) VALUES ('$name', '$pwd');";
         if($connect->query($sql) == true){
-            echo "Login Details Successfully Inserted";
+            // echo "Login Details Successfully Inserted";
         }
         else{
-            echo "Error: $sql <br> $connect->error";
+            // echo "Error: $sql <br> $connect->error";
         }
 
         $connect->close();
